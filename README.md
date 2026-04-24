@@ -1,6 +1,5 @@
 Este projeto foi desenvolvido como uma avaliação prática para o curso técnico de Informática na FIEC. O sistema consiste em uma aplicação de lista colaborativa, focada em praticar conceitos modernos de desenvolvimento mobile e regras de negócio em tempo real.
 
-**Destaques do Desenvolvimento:**
 Como o projeto foi realizado individualmente, fui responsável por todo o ciclo de desenvolvimento, com foco principal em:
 
 **Autenticação e Segurança:** Implementação de sistema de login e cadastro via Firebase Auth, garantindo que apenas usuários autenticados acessem a lista.
@@ -12,7 +11,11 @@ Como o projeto foi realizado individualmente, fui responsável por todo o ciclo 
 **Interface e Navegação:** Desenvolvimento de uma interface intuitiva com foco em usabilidade e fluxo de navegação entre telas.
 
 **Tecnologias Utilizadas:**
+
 Linguagem: JavaScript
+
 Framework: React Native
+
 Backend as a Service: Firebase (Auth e Firestore)
+
 Navegação: React Navigation
