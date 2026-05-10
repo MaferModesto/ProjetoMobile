@@ -1,21 +1,46 @@
-Este projeto foi desenvolvido como uma avaliação prática para o curso técnico de Informática na FIEC. O sistema consiste em uma aplicação de lista colaborativa, focada em praticar conceitos modernos de desenvolvimento mobile e regras de negócio em tempo real.
+# Lista Colaborativa Mobile
 
-Como o projeto foi realizado individualmente, fui responsável por todo o ciclo de desenvolvimento, com foco principal em:
+## Descrição do Projeto
 
-**Autenticação e Segurança:** Implementação de sistema de login e cadastro via Firebase Auth, garantindo que apenas usuários autenticados acessem a lista.
+Este projeto foi desenvolvido como uma avaliação prática para o curso técnico de Informática na FIEC. O sistema consiste em uma aplicação de lista colaborativa, com foco em praticar conceitos modernos de desenvolvimento mobile, autenticação de usuários e regras de negócio em tempo real.
 
-**Regras de Negócio e Permissões:** Criação de lógica para que, embora a lista seja colaborativa, apenas o autor de cada item tenha permissão exclusiva para editá-lo ou excluí-lo.
+O objetivo principal é permitir que usuários autenticados criem e gerenciem itens em uma lista compartilhada, garantindo controle de permissões por usuário.
 
-**Integração com Banco de Dados:** Gerenciamento de dados em tempo real utilizando o Cloud Firestore, vinculando cada entrada ao UID (User ID) do criador.
+---
 
-**Interface e Navegação:** Desenvolvimento de uma interface intuitiva com foco em usabilidade e fluxo de navegação entre telas.
+## Responsabilidades no Desenvolvimento
 
-**Tecnologias Utilizadas:**
+O projeto foi desenvolvido de forma individual, sendo eu responsável por todo o ciclo de desenvolvimento, com foco principal em:
 
-Linguagem: JavaScript
+**Autenticação e Segurança:**  
+Implementação de sistema de login e cadastro utilizando Firebase Authentication, garantindo acesso apenas para usuários autenticados.
 
-Framework: React Native
+**Regras de Negócio e Permissões:**  
+Criação de lógica para controle de acesso, permitindo que apenas o autor de cada item possa editá-lo ou excluí-lo.
 
-Backend as a Service: Firebase (Auth e Firestore)
+**Integração com Banco de Dados:**  
+Utilização do Cloud Firestore para armazenamento e sincronização dos dados em tempo real, associando cada item ao UID do usuário criador.
 
-Navegação: React Navigation
+**Interface e Navegação:**  
+Desenvolvimento de interface intuitiva com foco em experiência do usuário e navegação entre telas utilizando React Navigation.
+
+---
+
+## Tecnologias Utilizadas
+
+- JavaScript
+- React Native
+- Firebase Authentication
+- Cloud Firestore
+- React Navigation
+
+---
+
+## Funcionalidades
+
+- Cadastro e login de usuários
+- Criação de itens em lista colaborativa
+- Edição e remoção de itens com controle de permissão
+- Sincronização de dados em tempo real
+- Interface mobile responsiva e intuitiva
+
